@@ -13,12 +13,13 @@ export const styles = StyleSheet.create({
     },
 
     caixa:{
-        width: 200,
+        width: 250,
         padding: 10,
         margin: 5,
         backgroundColor:"White",
         borderColor: "silver", 
         borderWidth: 1,
+        borderRadius: 10
     },
 
     btntllogin:{
@@ -39,6 +40,10 @@ export const styles = StyleSheet.create({
         width: 150,
         marginLeft: "auto",
         marginRight: "auto",
+    },
+
+    txtLogin:{
+        
     }
 
 
