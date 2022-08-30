@@ -42,9 +42,4 @@ export const styles = StyleSheet.create({
         marginRight: "auto",
     },
 
-    txtLogin:{
-        
-    }
-
-
 })

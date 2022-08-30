@@ -2,6 +2,7 @@ import { TextInput, TouchableOpacity, View, Text, StyleSheet, Alert } from "reac
 import { MaterialCommunityIcons, Feather } from '@expo/vector-icons';
 import { styles } from "../../css/Styles";
 import { useState } from "react";
+import { NavigationContainer } from "@react-navigation/native";
 
 export default function Main( props:any ) {
 
@@ -16,8 +17,8 @@ export default function Main( props:any ) {
 
             <TouchableOpacity onPress={()=> {
 
-                efetuarLogin(usuario,senha);
-
+                //efetuarLogin(usuario,senha);
+                props.acao.navigate("Home");
             }} style={styles.btntllogin} >
                 <MaterialCommunityIcons name="login" size={24} color="black"/>
                 <Text> Login </Text>
